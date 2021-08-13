@@ -130,7 +130,7 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 
 
 # Returning relevant field for Watson Discovery Search Skill
-<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Title%20URL.png">
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Screenshot%202021-08-13%20at%201.16.32%20PM.png">
 
 
 # Test Our Bot
