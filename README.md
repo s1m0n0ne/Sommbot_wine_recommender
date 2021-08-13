@@ -41,19 +41,22 @@ Use the conversation token to maintain the context
 Leverage the content catalog for general, customer care, and bot control intents
 Handle digressions during a conversation
 
-#Inspiration
+# Inspiration
 Our team hails from Singapore which is a cosmopolitan city in South-East Asia. Singapore is well-known for its good food and is rapidly developing into a wine hub. Good food accompanied by a great wine is something our team enjoys.
 A food and beverage chatbot is something of a rarity among AI projects, so our team decided to challenge ourselves by working on a topic that everyone can relate to and enjoy.
 We think that our chatbot has untapped potential and opportunities for further application. If you have any ideas, breakthroughs, or other interesting insights please post them.
 We welcome constructive feedback and tips, and hope this chatbot inspires many more food and beverage chatbots!
 
-#Contact Information
+# Contact Information
 Alvin Quek: aq.impossible@gmail.com
+
 Charlotte Queck:charlottequeck@gmail.com
+
 Eugene Ong: eugene.ong0712@gmail.com
+
 Seamus Wan: seamuswan@live.com
 
-#Dataset Overview
+# Dataset Overview
 We searched for food and beverage datasets on Kaggle and found the Wine Review dataset. We were looking for a medium-sized dataset that would require some data processing but did not require extensive data cleansing. 
 
 The data was initially scraped from Wine Enthusiast Magazine during the week of June 15th, 2017 and again on November 22nd 2017. It comprises of 120,000 wine reviews in one csv file of about 53 MB:
@@ -62,7 +65,7 @@ Winemag-data-130k-v2.csv contains 12 columns and 129K+ rows of Wine Reviews scra
 Each record in the dataset represents a single wine review from an online user of Wine Enthusiast Magazine
 The following is a brief summary of the 10 different columns of data included in winemag-data-130k-v2.csv:
 
-#Data Columns
+# Data Columns
 1. Country - The country of origin of the wine.
 2. Description - The description of the wine's flavor profile.
 3. Designation - The vineyard where the wine's grapes are sourced.
@@ -77,7 +80,7 @@ The following is a brief summary of the 10 different columns of data included in
 11. Variety - The type of grapes used to make the wine (for example, Pinot Noir).
 12. Winery - The winery that made the wine.
 
-#Project Flow 
+# Project Flow 
 
 Diagram shows tools used for chatbot
 
@@ -93,7 +96,7 @@ Steps to create Watson Assistant Service:
 6. Add Your Skill to Your Assistant
 7. Integrate the Assistant
 
-#Tools
+# Tools
 Watson Assistant
 
 <Create Watson Assistant Service>
