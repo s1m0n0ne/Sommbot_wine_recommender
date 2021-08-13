@@ -82,7 +82,7 @@ The following is a brief summary of the 10 different columns of data included in
 12. Winery - The winery that made the wine.
 
 # Project Flow 
-
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Flow_ToolsForChatbot.png">
 Diagram shows tools used for chatbot
 
 Watson Assistant
