@@ -132,6 +132,8 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 # Returning relevant field for Watson Discovery Search Skill
 <img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Screenshot%202021-08-13%20at%201.16.32%20PM.png">
 
+# Flowchart for Sommbot
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Flow%20screenshot.png">
 
 # Test Our Bot
 Click on image below to try our Sommbot (bottom of website)
