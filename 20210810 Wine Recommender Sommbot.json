@@ -1,0 +1,4021 @@
+{
+  "intents": [
+    {
+      "intent": "Collection_Mode",
+      "examples": [
+        {
+          "text": "any charges for delivery?"
+        },
+        {
+          "text": "Delivery"
+        },
+        {
+          "text": "how to collect?"
+        },
+        {
+          "text": "i would like to self pick up"
+        },
+        {
+          "text": "Over the counter"
+        },
+        {
+          "text": "Please collect your wine in our main store at MBS"
+        },
+        {
+          "text": "self"
+        },
+        {
+          "text": "what are the mode of collection"
+        }
+      ],
+      "description": "Over The Counter"
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "Are there any specials today?"
+        },
+        {
+          "text": "cab save"
+        },
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "Do you have Bordeaux Blends"
+        },
+        {
+          "text": "Do you have Cabernet Sauvignon"
+        },
+        {
+          "text": "Do you have Chardonnay"
+        },
+        {
+          "text": "Do you have Chianti"
+        },
+        {
+          "text": "Do you have Malbec"
+        },
+        {
+          "text": "Do you have Merlot"
+        },
+        {
+          "text": "Do you have Moscato"
+        },
+        {
+          "text": "Do you have Pinot Grigio"
+        },
+        {
+          "text": "Do you have Pinot Noir"
+        },
+        {
+          "text": "Do you have Riesling"
+        },
+        {
+          "text": "Do you have Sauvignon Blanc"
+        },
+        {
+          "text": "Do you have Zinfandel"
+        },
+        {
+          "text": "How much does a typical wine cost?"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "I want to see a menu"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "red"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "tell me the organic wine choices"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What do you have for wine?"
+        },
+        {
+          "text": "what else do you have beside wine?"
+        },
+        {
+          "text": "What is the latest promotion ?"
+        },
+        {
+          "text": "What is the latest wine that you have ?"
+        },
+        {
+          "text": "What is the price range of your wines?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "what kinds of wine do you offer?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        },
+        {
+          "text": "what types of wine do you have?"
+        },
+        {
+          "text": "What wines do you have?"
+        },
+        {
+          "text": "What wine types do you have?"
+        },
+        {
+          "text": "what wine types on sale now?"
+        },
+        {
+          "text": "where can i find out about your wine?"
+        },
+        {
+          "text": "wine options"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Does the store open till 8pm on weekends?"
+        },
+        {
+          "text": "Do you open on Sunday and Public Holidays?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What are your opening hours?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "what time do you close?"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "Can you help me find locations in the general area of Singapore?"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in Singapore?"
+        },
+        {
+          "text": "Do you have an office in Singapore?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "how can I contact your store?"
+        },
+        {
+          "text": "how do I find you?"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "I need help to find the nearest store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "Where are the store locations closest to town?"
+        },
+        {
+          "text": "where are you?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "where is your location"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "where is your shop?"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Delivery_Locations",
+      "examples": [
+        {
+          "text": "Delivery charges"
+        },
+        {
+          "text": "International"
+        },
+        {
+          "text": "Singapore"
+        }
+      ],
+      "description": "Customer input delivery location"
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "cancel ordering wine"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "don't need wine anymore"
+        },
+        {
+          "text": "don't want to continue"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I changed my mind, I don't need to order wine now"
+        },
+        {
+          "text": "I don't want to order wine any more"
+        },
+        {
+          "text": "I don't want wine anymore"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        },
+        {
+          "text": "stop ordering wine"
+        },
+        {
+          "text": "you send me the wrong wine, I want to cancel order!"
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "can I make an order please?"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "can I order wine?"
+        },
+        {
+          "text": "can I place an order?"
+        },
+        {
+          "text": "Can you tell me which phones are on sale this week? I want to buy a new phone?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I need a new cell phone"
+        },
+        {
+          "text": "I need jeans"
+        },
+        {
+          "text": "I need some assistance in purchasing a pre paid mobile phone as well as a sim"
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "I would like a sim"
+        },
+        {
+          "text": "I would like to purchase a new device for cash"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "need a wine"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Order and payment for device"
+        },
+        {
+          "text": "order wine"
+        },
+        {
+          "text": "Place order for device"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "Where to buy a camera?"
+        },
+        {
+          "text": "would like to make an order"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Bugger me I wanna pay me bill"
+        },
+        {
+          "text": "Can I do a bill payment?"
+        },
+        {
+          "text": "Can I pay my bill?"
+        },
+        {
+          "text": "Can you assist me with paying my bill?"
+        },
+        {
+          "text": "Handle payment?"
+        },
+        {
+          "text": "How can I pay off my balance?"
+        },
+        {
+          "text": "I also want to make a payment when I have you here on chat"
+        },
+        {
+          "text": "I'd like to pay"
+        },
+        {
+          "text": "I need to pay the cost of my service plan"
+        },
+        {
+          "text": "I need to schedule a payment"
+        },
+        {
+          "text": "I think I'm gonna pay the bill"
+        },
+        {
+          "text": "I want to make a one time payment and enter my debit card payment information"
+        },
+        {
+          "text": "I want to make payment"
+        },
+        {
+          "text": "I want to pay my bill with a credit card"
+        },
+        {
+          "text": "I would like to ask a question about making a payment."
+        },
+        {
+          "text": "Pay my account"
+        },
+        {
+          "text": "Request bill pay"
+        },
+        {
+          "text": "Right now, I am in a different city and how to make cash payment as today is the due date"
+        },
+        {
+          "text": "Schedule payment"
+        },
+        {
+          "text": "Want to pay"
+        }
+      ],
+      "description": "Make a payment."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Yes I want to track my order"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        },
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "General_About_Company",
+      "examples": [
+        {
+          "text": "How many branches do you have?"
+        },
+        {
+          "text": "Share with me your company history"
+        },
+        {
+          "text": "Tell me about your wine company"
+        },
+        {
+          "text": "What is the company history and philosophy"
+        },
+        {
+          "text": "What is the company philosophy?"
+        },
+        {
+          "text": "When was the company set up?"
+        },
+        {
+          "text": "Where are your ingredients sourced from?"
+        },
+        {
+          "text": "Who owns the wine bot"
+        }
+      ],
+      "description": "History and Philosophy of the Company"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What are you?"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "how can I access the functions?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "how to choice wine"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "im looking for best wine match"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "need some help"
+        },
+        {
+          "text": "option menu please"
+        },
+        {
+          "text": "please guide me"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "what are the options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "what can you do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Bonjour"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Konnichiwa"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ohayo gozaimasu"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "selemat"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I can never get through your hotline, is it working?"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I have not received my order after 3 days"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "you dont understand my question, want to speak to your manager through phone"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "your order delivered 2 hours late!!!!"
+        },
+        {
+          "text": "your service is lousy, i want a refund?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Product_Information",
+      "examples": [
+        {
+          "text": "I want to see your red wines",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                19,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i want to see your white wines",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                19,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "red wines",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me all the Cabernet Sauvignon",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                16,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me all your Merlot",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                17,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Chardonnay",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Colombard",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Malbec",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Moscato",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Muscat",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Pinot Grigio",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Pinot Noir",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Port",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Riesling",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Sauvignon Blanc",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                13,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Sherry",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Shiraz",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Syrah",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Show me your Zinfandels",
+          "mentions": [
+            {
+              "entity": "wine_red",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "white wines",
+          "mentions": [
+            {
+              "entity": "wine_white",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Product info (test webhook)"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "collection_mode",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "delivery",
+          "synonyms": [
+            "deliver",
+            "home",
+            "office",
+            "send",
+            "send to me"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "self pick up",
+          "synonyms": [
+            "collection",
+            "own",
+            "ownself",
+            "pick up",
+            "pickup",
+            "self"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "confirmation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "Nah",
+            "no",
+            "no thanks",
+            "not that"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "confirmed",
+            "noted",
+            "ok",
+            "okay",
+            "sure",
+            "yah",
+            "yea",
+            "yeah",
+            "yes",
+            "yup"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "country",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "America",
+          "synonyms": [
+            "North America",
+            "United States of America",
+            "US",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "District_Singapore",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alexandra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Balestier",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beach Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Buona Vista",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chinatown",
+          "synonyms": [
+            "China Town"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "City Hall",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Farrer Park",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Harbourfront",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Macpherson",
+          "synonyms": [
+            "MacPherson"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Newton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orchard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Raffles Place",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tanglin",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "district_US",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "California",
+          "synonyms": [
+            "CA",
+            "Calif"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": [
+            "NY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Oregon",
+          "synonyms": [
+            "OR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Washington",
+          "synonyms": [
+            "WA"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "drinks_option",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Lemonade Juice",
+          "synonyms": [
+            "lemonade juice"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pineapple Juice",
+          "synonyms": [
+            "pineapple juice"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Soda Drinks",
+          "synonyms": [
+            "soda drinks"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "ecommerce_sales",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancel order",
+          "synonyms": [
+            "cancel",
+            "cancel order"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "place order",
+          "synonyms": [
+            "place",
+            "place order"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Free_Delivery_confirmed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "shop",
+          "synonyms": [
+            "collection",
+            "collection point",
+            "location",
+            "shop",
+            "venue",
+            "where"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "burger",
+          "synonyms": [
+            "burgers",
+            "durger menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "drink",
+          "synonyms": [
+            "drinks",
+            "drinks menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pasta",
+          "synonyms": [
+            "pasta menu",
+            "pastas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pizza",
+          "synonyms": [
+            "pizza menu",
+            "pizzas",
+            "pizzeria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "red wine list",
+          "synonyms": [
+            "carbernet sauvignon",
+            "malbec",
+            "merlot",
+            "port sherry",
+            "red",
+            "red wine",
+            "rouge",
+            "sherry",
+            "shiraz",
+            "sirah",
+            "syrah",
+            "zinfandel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "white wine list",
+          "synonyms": [
+            "blanc",
+            "chardonnay",
+            "colombard",
+            "moscato",
+            "muscat",
+            "pinot grigio",
+            "port",
+            "riesling",
+            "sauvignon blanc",
+            "white",
+            "white wine"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "red_cabernetsauvignion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alpha Omega 2012 Beckstoffer Missouri Hopper Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alpha Omega 2012 Stagecoach Vineyard Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Casto Oaks 2008 Gardner Vineyard Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Davies 2013 Winfield Vineyard Cabernet Sauvignon (Calistoga)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hourglass 2012 Estate Cabernet Sauvignon (Napa Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Katherine Goldschmidt 2013 Crazy Creek Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kathryn Kennedy 2012 Estate Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lapis Luna 2010 Moon Eyes Cabernet Sauvignon (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sharabella Wines 2008 Padre Amante Reserve Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sojourn 2012 Proprietary Cuv√©e Cabernet Sauvignon (Napa Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sojourn 2012 Vineyard Georges III Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tedeschi Family 2012 Estate Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trotter 1/16 2013 Oak Canyon Ranch Cabernet Sauvignon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "store_hours",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "store hours",
+          "synonyms": [
+            "open hours",
+            "opening hours",
+            "operating hours",
+            "store hours"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tasting_notes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "apple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cherry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chocolate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grapefruit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lemon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "orange",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "plum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sweet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tart",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tasting notes",
+          "synonyms": [
+            "notes",
+            "taste"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vanilla",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tastingnotes_apple",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Channing Daughters 2011 Ramato Pinot Grigio (Long Island)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HandCraft 2016 Artisan Collection Pinot Grigio (California)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "J. Lohr 2012 Highlands Bench Chardonnay (Santa Lucia Highlands)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joyce 2015 Tondre Grapefield Riesling (Santa Lucia Highlands)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "McGregor 2012 Dry Riesling (Finger Lakes)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peirano 2011 Heritage Collection Chardonnay (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rochioli 2014 Sweetwater Chardonnay (Russian River Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wayfarer 2014 Wayfarer Vineyard Chardonnay (Fort Ross-Seaview)",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_cherry",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adirondack Winery 2013 Still Waters Syrah (New York)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Almquist 2008 Northridge Vineyard Shiraz (Wahluke Slope)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alpha Omega 2012 Beckstoffer Missouri Hopper Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Basel Cellars 2011 Estate Cabernet Sauvignon (Columbia Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bonair 2012 Chateau Puryear Vineyard Estate Bottled Malbec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Den Hoed 2009 Andreas Cabernet Sauvignon Wallula Vineyard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fidelitas 2010 Champoux Vineyard Merlot (Horse Heaven Hills)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hauer of the Dauen 1998 Estate Bottled Pinot Noir",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Helix by Reininger 2005 Stillwater Creek Vineyard Merlot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hourglass 2012 Estate Cabernet Sauvignon (Napa Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knight Hill 2010 StoneTree Vineyard Cabernet Sauvignon (Wahluke)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "One Woman 2008 Estate Reserve Merlot (North Fork of Long Island)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peltier 2013 Hybrid Pinot Grigio (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pride Mountain 2012 Vintner Select Merlot (Sonoma County)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quady 2006 Starboard Dessert Wine Port (Amador County)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sineann 2007 Hillside Vineyard Merlot (Columbia Valley (OR))",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sojourn 2012 Vineyard Georges III Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ventana 2012 Estate Pinot Noir (Arroyo Seco)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "WildHaven 2010 Reserve Merlot (Washington)",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_chocolate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Columbia Crest 2010 Reserve StoneTree Vineyard Cabernet Sauv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hourglass 2012 Estate Cabernet Sauvignon (Napa Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kiona 2012 Estate Malbec (Red Mountain)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pride Mountain 2012 Vintner Select Merlot (Sonoma County)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quady NV Batch 88 Starboard Port (California)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sineann 2009 Champoux Vineyard Merlot (Columbia Valley (WA))",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sojourn 2012 Vineyard Georges III Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Venge 2013 Oakville Estate Vineyard Merlot (Oakville)",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_grapefruit",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Martin Ray 2015 Limited Release Chardonnay (Green Valley)",
+          "synonyms": [
+            "Foxen 2014 Tinaquaic Vineyard Chardonnay (Santa Maria Valley)",
+            "Lynmar 2014 La Sereinité Chardonnay (Russian River Valley)",
+            "Sierra Starr 2015 Solstice Sauvignon Blanc (Nevada County)",
+            "Treos 2013 Dry Muscat Muscat (Willamette Valley)",
+            "Washington Hills 2011 Late Harvest Moscato (Washington)"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_lemon",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Benovia 2014 La Pommeraie Chardonnay (Russian River Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Claiborne & Churchill 2014 Claiborne Vineyard Riesling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dutton Estate 2014 Dutton Palms Vineyard Chardonnay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foxen 2014 Tinaquaic Vineyard Chardonnay (Santa Maria Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "J. Lohr 2012 Highlands Bench Chardonnay (Santa Lucia Highlands)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lynmar 2014 La Sereinit√© Chardonnay (Russian River Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Martin Ray 2015 Limited Release Chardonnay (Green Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "McGregor 2012 Dry Riesling (Finger Lakes)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Treos 2013 Dry Muscat Muscat (Willamette Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wayfarer 2014 Wayfarer Vineyard Chardonnay (Fort Ross-Seaview)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Woodenhead 2010 Naturale Single Vineyard Sparkling Colombard",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_orange",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Charles Smith 2009 Broncho Stoneridge Vineyard Malbec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "J. Christopher 2012 Cuv√©e Lunatique Chardonnay (Willamette)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joseph Filippi NV Oloroso Library Reserve Sherry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joyce 2015 Tondre Grapefield Riesling (Santa Lucia Highlands)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Latah Creek 2012 Hyatt Vineyards Moscato (Rattlesnake Hills)",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tastingnotes_peach",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kendall-Jackson 2014 Vintner's Reserve Chardonnay (California)",
+          "synonyms": [
+            "Hall 2013 T Bar T Ranch Sauvignon Blanc (Alexander Valley)",
+            "Martin & Weyrich 2012 Allegro Moscato (California)",
+            "Peirano 2013 The Heritage Collection Moscato (Lodi)",
+            "Silver Thread 2014 Dry Riesling (Finger Lakes)"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_plum",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Barlow 2012 Unfiltered Merlot (Calistoga)",
+          "synonyms": [
+            "Quady NV Batch 88 Starboard Port (California)",
+            "Stein Family 2011 Magic Hour White Moscato (Lodi)",
+            "Venge 2013 Oakville Estate Vineyard Merlot (Oakville)"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_sweet",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Columbia Crest 2006 Grand Estates Shiraz (Columbia Valley (WA))",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cuckoo's Nest 2014 Fizz√© Early Muscat (Oregon)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fazeli Cellars 2008 Reserve Shiraz (Temecula Valley)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joyce 2015 Tondre Grapefield Riesling (Santa Lucia Highlands)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Latah Creek 2012 Hyatt Vineyards Moscato (Rattlesnake Hills)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Martin & Weyrich 2012 Allegro Moscato (California)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "One Woman 2008 Estate Reserve Merlot (North Fork of Long Island)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peirano 2013 The Heritage Collection Moscato (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peju Province 2015 Carnival Colombard (North Coast)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peter Cellars 2013 Estate Merlot (Carneros)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quady 2014 Electra Moscato (California)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quady NV Batch 88 Starboard Port (California)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosa d'Oro 2012 Slightly Sweet Muscat (Yolo County)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stein Family 2011 Magic Hour White Moscato (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uvaggio 2009 Moscato Secco Moscato (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uvaggio 2015 Dolce Moscato (Lodi)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Washington Hills 2011 Late Harvest Riesling (Washington)",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "tastingnotes_tart",
+      "values": []
+    },
+    {
+      "entity": "tastingnotes_vanilla",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alpha Omega 2012 Stagecoach Vineyard Cabernet Sauvignon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bunnell 2010 Northridge Vineyard Malbec (Wahluke Slope)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gamba 2013 Starr Road Ranch Old Vine Zinfandel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hess Collection 2012 Small Block Series Malbec (Mount Veeder)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Martin Ray 2015 Limited Release Chardonnay (Green Valley)",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "wine_list",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alcohol",
+          "synonyms": [
+            "alcohols"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "red",
+          "synonyms": [
+            "dessert",
+            "dessert wine",
+            "fortified",
+            "fortified wine",
+            "red wine",
+            "white",
+            "white wine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reds",
+          "synonyms": [
+            "desserts",
+            "fortifieds",
+            "whites"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Wine_place",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Collect Over Counter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delivery",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "wine_red",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cabernet sauvignon",
+          "synonyms": [
+            "cab",
+            "cabernet",
+            "cab sav",
+            "malbec",
+            "merlo",
+            "merlot",
+            "pinot noir",
+            "port"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malbec",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Merlot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pinot Noir",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Port",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "red",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sherry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shiraz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Syrah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Zinfandels",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Wine_size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Magnum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Normal",
+          "synonyms": [
+            "normal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Small",
+          "synonyms": [
+            "small"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Wine_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Red",
+          "synonyms": [
+            "reds"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "White",
+          "synonyms": [
+            "whites"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Wine_Variety",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cabernet Sauvignon",
+          "synonyms": [
+            "Cabernet Sauvignon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chardonnay",
+          "synonyms": [
+            "Chardonnay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colombard",
+          "synonyms": [
+            "Colombard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malbec",
+          "synonyms": [
+            "Malbec"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Merlot",
+          "synonyms": [
+            "Merlot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Moscato",
+          "synonyms": [
+            "Moscato"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscat",
+          "synonyms": [
+            "Muscat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Port",
+          "synonyms": [
+            "Port"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Riesling",
+          "synonyms": [
+            "Riesling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shiraz",
+          "synonyms": [
+            "Shiraz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Syrah",
+          "synonyms": [
+            "Syrah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zinfandel",
+          "synonyms": [
+            "Zinfandel"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "wine_white",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chardonnay",
+          "synonyms": [
+            "colombard",
+            "grigio",
+            "moscato",
+            "muscat",
+            "pinot grigio",
+            "pinot gris",
+            "riesling",
+            "sauvignon blanc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colombard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moscato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pinot Grigio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Riesling",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sauvignon Blanc",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "white",
+          "synonyms": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/IMVAI0903T4%40gmail.com_dev/default/somm_bot.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "Let me connect you to a live agent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1627360429617",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry that you have changed your mind. We hope we can serve you again next time. Good day"
+              },
+              {
+                "text": "Thank you for visiting us. We hope we can serve you again next time. Good day"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1627527016527",
+      "conditions": "#eCommerce_Cancel_Product_Order",
+      "dialog_node": "node_10_1627437606404",
+      "previous_sibling": "node_7_1627437514647"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit our Flagship Store at \nMarina Bay Sands\n10 Bayfront Ave, Singapore 018956\nUnit 88-88"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "#Customer_Care_Store_Location",
+      "dialog_node": "node_1_1627449691338"
+    },
+    {
+      "type": "standard",
+      "title": "#General_About_Agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alex - Sommbot - is powered by IBM's Watson AI, a solution that is transforming the retail experience both in-store and online."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "#General_About_You",
+      "dialog_node": "node_2_1627363941566",
+      "previous_sibling": "node_4_1627437992172"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Day, How can i help you today? What would you like to know?\n- Store Hours\n- Our Location\n- Our Menu\n- Ask me anything about wine\n- Tell me a wine joke"
+              },
+              {
+                "text": "Hello. How may I help you? Here are some of the things you can ask:\n- Our Location\n- Our Menu\n- Ask me anything about wine\n- Tell me a wine joke"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_3_1627360378956",
+      "previous_sibling": "node_5_1627440465486"
+    },
+    {
+      "type": "standard",
+      "title": "#Ask _about_Product_DO_NOT_DELETEshow",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "$webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Product_Information",
+      "dialog_node": "node_3_1627455820095",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "conditions": "#General_About_Company",
+      "dialog_node": "node_3_1627526824622",
+      "previous_sibling": "node_3_1627360378956"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We only accept payment by Paynow or credit card."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1627527016527",
+      "conditions": "#eCommerce_Make_A_Payment",
+      "dialog_node": "node_4_1627437692453",
+      "previous_sibling": "node_10_1627437606404"
+    },
+    {
+      "type": "standard",
+      "title": "#AboutUs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alex - SommBot - is the first local sommelier chatbot. It is backed The Wine Sommeliers, a boutique wine company founded by four wine enthusiasts with digital AI skills. Alex taps on the power of AI and deep learning to suggest personalised wine recommendations, make wine discovery and purchase fun, accessible and effortless for wine drinks of every level.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "#General_About_You",
+      "dialog_node": "node_4_1627437992172",
+      "previous_sibling": "node_7_1627438004404"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have a range of wines available. You can choose by red or white or by taste. Which do you prefer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1627527016527",
+      "conditions": "#Customer_Care_Products_Offered",
+      "dialog_node": "node_5_1627436573823"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At The Wine Sommelier, This is our list of White Wine.\n> Riesling\n> Port\n> Pinot Grigio\n> Muscat\n> Moscato\n> Colombard\n> Chardonnay\n> Sauvignon Blanc\n-\nWhich variety do you prefer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1627436573823",
+      "conditions": "@menu:(white wine list)",
+      "dialog_node": "node_5_1627439760546"
+    },
+    {
+      "type": "standard",
+      "title": "#live_agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are sorry Alex was not able to help you. Please stand by while we connect you to a customer service representative"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_5_1627440465486",
+      "previous_sibling": "node_3_1627455820095"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At The Wine Sommelier, This is our list of White Wine.\n> Riesling\n> Port\n> Pinot Grigio\n>Muscat\n> Moscato\n> Colombard\n> Chardonnay\n> Sauvignon Blanc\n-\nWhich variety do you prefer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1627437514647",
+      "conditions": "@menu:(white wine list)",
+      "dialog_node": "node_5_1627443227011",
+      "previous_sibling": "node_8_1627443180865"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our wines are delicious, layered with an exquisite finish. Choose your preferred note below"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Tasting note",
+            "options": [
+              {
+                "label": "Cherry",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Sweet",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Lemon",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Vanilla",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Chocolate",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Apple",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Orange",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Grapefruit",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Tart",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Peach",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Plum",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1627436573823",
+      "conditions": "@tasting_notes",
+      "dialog_node": "node_6_1627442133122",
+      "previous_sibling": "node_8_1627441245629"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• The Wine Sommelier currently delivers to Singapore addresses only and we deliver on a Next Day Delivery basis.\n• Alcoholic purchase above $100 will get free delivery!\n• A $10 delivery fee will be incurred for orders below $100.\n• We deliver to anywhere in Singapore, even to your picnic in the beach, botanic gardens or even to a chalet party! We suggest receiving your item in advance as actual day delivery time depends heavily on traffic and weather conditions.\n• Delivery to Sentosa will incur an additional $10 delivery charge.\n• In a case of a failed delivery, or failed payment, a charge of not less that $15 will be incurred in compensation for any administrative costs and mileage.\n• A surcharge of $7 is applicable for deliveries to your designated BBQ Pits in any of our National Parks.\nExamples:\n> East Coast Park\n> West Coast Park\n> Pasir Ris Park\n> Labrador Park\n> Sembawang Park "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "@collection_mode:delivery",
+      "dialog_node": "node_6_1627445619537",
+      "previous_sibling": "node_2_1627363941566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which Type of Wine would you like?",
+            "options": [
+              {
+                "label": "Red Wine",
+                "value": {
+                  "input": {
+                    "text": "red wine"
+                  }
+                }
+              },
+              {
+                "label": "White Wine",
+                "value": {
+                  "input": {
+                    "text": "white wine"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1627527016527",
+      "conditions": "#eCommerce_Create_Product_Order",
+      "dialog_node": "node_7_1627437514647",
+      "previous_sibling": "node_5_1627436573823"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Opening Hours. \n-\nMon - Fri: 9am - 6pm\nSat: 10am - 5pm\nSunday: Closed\n-\nCome Visit Us. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "#Customer_Care_Store_Hours",
+      "dialog_node": "node_7_1627438004404",
+      "previous_sibling": "node_1_1627449691338"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for visiting The Wine Sommelier. We hope to see you soon. "
+              },
+              {
+                "text": "Don't forget to check out."
+              },
+              {
+                "text": "Do come back for our latest offer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_8_1627360429617",
+      "previous_sibling": "node_9_1627439233278"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At The Wine Sommelier, This is our list of Red Wine.\n> Port Sherry\n> Sherry\n> Carbernet Saugvignon\n> Merlot\n> Malbec\n> Zinfadel\n> Shiraz\n> Syrah\n-\nWhich variety do you prefer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1627436573823",
+      "conditions": "@menu:(red wine list)",
+      "dialog_node": "node_8_1627441245629",
+      "previous_sibling": "node_5_1627439760546"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At The Wine Sommelier, This is our list of Red Wine.\n> Port Sherry\n> Sherry\n> Carbernet Saugvignon\n> Merlot\n> Malbec\n> Zinfadel\n> Shiraz\n> Syrah\n-\nWhich variety do you prefer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1627437514647",
+      "conditions": "@menu:(red wine list)",
+      "dialog_node": "node_8_1627443180865"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For All Self Pick Up Orders\nPlease visit our Flagship Store at \nMarina Bay Sands\n10 Bayfront Ave, Singapore 018956\nUnit 88-88"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1627526824622",
+      "conditions": "@collection_mode:(self pick up)",
+      "dialog_node": "node_8_1627445088975",
+      "previous_sibling": "node_6_1627445619537"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The first thing on my bucket list? To fill the bucket with wine."
+              },
+              {
+                "text": "Did you know wine doesn’t make you fat? It makes you lean…against tables, chairs, floors, walls and ugly people."
+              },
+              {
+                "text": "Wine improves with age. I improve with wine."
+              },
+              {
+                "text": "We have an open-door policy. Show up with wine, and we’ll open the door."
+              },
+              {
+                "text": "I’m a wine enthusiast. The more wine I drink, the more enthusiastic I get."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_9_1627439233278",
+      "previous_sibling": "node_9_1627527016527"
+    },
+    {
+      "type": "folder",
+      "conditions": "@ecommerce_sales",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1627527016527",
+      "previous_sibling": "node_3_1627526824622"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Try again later"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1627455820095",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1627456423215",
+      "previous_sibling": "response_6_1627456615701"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1627455820095",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_4_1628066719246"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?context.webhook_result_1.passages.get(0).get(\"passage_text\").getAsString() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1627455820095",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_6_1627456615701",
+      "previous_sibling": "response_4_1628066719246"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to The Wine Sommeliers. This is your SommBot - Alex. Ask me anything about wine. "
+              },
+              {
+                "text": "If at any point you need to speak to a customer service officer, type live agent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Sommbot Skill 1",
+  "language": "en",
+  "description": ""
+}
