@@ -126,6 +126,13 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 6. Add Your Skill to Your Assistant
 7. Integrate the Assistant
 
+# Connection between Watson Assistant and Watson Discovery
+
+
+# Returning relevant field for Watson Discovery Search Skill
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Title%20URL.png">
+
+
 # Test Our Bot
 Click on image below to try our Sommbot (bottom of website)
 [<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/wix%20website%20screenshot.png">](https://aqimpossible.wixsite.com/thewinesommelier)
