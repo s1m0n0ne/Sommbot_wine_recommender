@@ -127,7 +127,7 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 7. Integrate the Assistant
 
 # Connection between Watson Assistant and Watson Discovery
-
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Screenshot%202021-08-13%20at%201.22.28%20PM.png">
 
 # Returning relevant field for Watson Discovery Search Skill
 <img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Screenshot%202021-08-13%20at%201.16.32%20PM.png">
