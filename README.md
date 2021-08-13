@@ -64,6 +64,8 @@ Winemag-data-130k-v2.csv contains 12 columns and 129K+ rows of Wine Reviews scra
 Each record in the dataset represents a single wine review from an online user of Wine Enthusiast Magazine
 The following is a brief summary of the 10 different columns of data included in winemag-data-130k-v2.csv:
 
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/wine%20dataset%20screenshot.png">
+
 # Data Columns
 1. Country - The country of origin of the wine.
 2. Description - The description of the wine's flavor profile.
