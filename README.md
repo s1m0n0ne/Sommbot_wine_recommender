@@ -99,6 +99,9 @@ Steps to create Watson Assistant Service:
 # Tools
 Watson Assistant
 
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/Flow_WA.png">
+
+
 # Create Watson Assistant Service
 Steps to create Watson Assistant Service:
 
@@ -122,4 +125,6 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 5. Build a Dialog
 6. Add Your Skill to Your Assistant
 7. Integrate the Assistant
+
+# Test Our Bot
 
