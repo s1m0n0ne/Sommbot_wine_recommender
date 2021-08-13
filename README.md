@@ -21,25 +21,24 @@ Watson Assistant
 Watson Discovery
 
 Software / Platforms which were applied during the project process : - 
-Microsoft Excel
-Xls, csv
-Google Drive
-Collaborative use on data editing
-Watson Studio
-Collaborative use of Watson Assistant and Watson Discovery
-Create an Action using Watson Assistant
 
+1. Microsoft Excel - Xls, csv
+2. Google Drive - Collaborative use on data editing 
+4. Watson Studio - Collaborative use of Watson Assistant and Watson Discovery
+5. Mural - Design thinking 
+
+# Create an Action using Watson Assistant
 By taking a no-code approach, this page includes a Watson Assistant workspace to demonstrate an implementation of a Wine Sommelier chatbot agent that can provide wine recommendations and specifics. To demonstrate how to test it with Watson Discovery Search Skill, we will set up a Watson Discovery that calls out to our Node.js server which interacts with Watson Assistant.
 
 When the reader has completed this page, they will understand how to:
-Create a Watson Assistant
-Create a Watson Discovery Search Skill
-Deploy Watson Assistant Chatbot on IBM Cloud to Wix Website 
-Deploy Watson Assistant Chatbot on IBM Cloud to Whatsapp via Twilio
-Interact with Watson Assistant
-Use the conversation token to maintain the context
-Leverage the content catalog for general, customer care, and bot control intents
-Handle digressions during a conversation
+1. Create a Watson Assistant
+2. Create a Watson Discovery Search Skill
+3. Deploy Watson Assistant Chatbot on IBM Cloud to Wix Website 
+4. Deploy Watson Assistant Chatbot on IBM Cloud to Whatsapp via Twilio
+5. Interact with Watson Assistant
+6. Use the conversation token to maintain the context
+7. Leverage the content catalog for general, customer care, and bot control intents
+8. Handle digressions during a conversation
 
 # Inspiration
 Our team hails from Singapore which is a cosmopolitan city in South-East Asia. Singapore is well-known for its good food and is rapidly developing into a wine hub. Good food accompanied by a great wine is something our team enjoys.
@@ -55,7 +54,7 @@ Charlotte Queck:charlottequeck@gmail.com
 Eugene Ong: eugene.ong0712@gmail.com
 
 Seamus Wan: seamuswan@live.com
-
+ 
 # Dataset Overview
 We searched for food and beverage datasets on Kaggle and found the Wine Review dataset. We were looking for a medium-sized dataset that would require some data processing but did not require extensive data cleansing. 
 
@@ -84,7 +83,6 @@ The following is a brief summary of the 10 different columns of data included in
 
 Diagram shows tools used for chatbot
 
-
 Watson Assistant
 
 Steps to create Watson Assistant Service:
@@ -99,7 +97,7 @@ Steps to create Watson Assistant Service:
 # Tools
 Watson Assistant
 
-<Create Watson Assistant Service>
+# Create Watson Assistant Service
 Steps to create Watson Assistant Service:
 
 1. Login into IBM Cloud: https://cloud.ibm.com
