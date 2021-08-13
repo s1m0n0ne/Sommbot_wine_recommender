@@ -127,4 +127,4 @@ A new browser tab or window opens, and the Assistants page of Watson Assistant i
 7. Integrate the Assistant
 
 # Test Our Bot
-
+<img src="https://github.com/s1m0n0ne/Sommbot_wine_recommender/blob/main/images/wix%20website%20screenshot.png">
